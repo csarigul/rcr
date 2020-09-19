@@ -1,0 +1,371 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Euro 6</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="./js/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <style>
+        /* nunito-regular - latin */
+        
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            src: url('../fonts/nunito-v13-latin-regular.eot');
+            /* IE9 Compat Modes */
+            src: local('Nunito Regular'), local('Nunito-Regular'), url('./fonts/nunito-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('./fonts/nunito-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('./fonts/nunito-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+            url('./fonts/nunito-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('./fonts/nunito-v13-latin-regular.svg#Nunito') format('svg');
+            /* Legacy iOS */
+        }
+        
+        .icon-menu {
+            padding-top: 10px !important;
+        }
+        
+        .m-l-5 {
+            margin-left: 5px;
+        }
+        
+        .m-r-5 {
+            margin-right: 5px;
+        }
+        
+        .m-l-10 {
+            margin-left: 10px;
+        }
+        
+        .m-r-10 {
+            margin-right: 10px;
+        }
+        
+        .m-t-10 {
+            margin-top: 10px;
+        }
+        
+        .btn-test-step {
+            font-size: 25px !important;
+        }
+        
+        .check-test {
+            margin-top: -6px !important;
+            width: 20px !important;
+        }
+    </style>
+
+    <!-- Custom styles for this template-->
+    <link href="./css/sb-admin-2.css" rel="stylesheet">
+</head>
+
+<body id="page-top" style="background: rgb(253, 211, 77);">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+                <div class="card shadow mb-4 fixed-top">
+                    <!-- Card Header - Dropdown -->
+                    <div class="card-header" style="background:rgb(253, 211, 77)">
+                        <div class="col-md-12">
+                            <img src="img/logo.png" width="140" style="margin-top: -5px;margin-bottom: -11px;" />
+
+                            <a href="#" class="btn btn-success btn-icon-split float-right" style="margin-right:0px">
+                                <span class="icon text-white-25 icon-menu">
+                                    <i class="fa fa-save"></i>
+                                </span>
+                                <span class="text">Save</span>
+                            </a>
+                            <a href="euro6_index.html" class="btn btn-danger btn-icon-split m-r-10 float-right">
+                                <span class="icon text-white-25 icon-menu">
+                                    <i class="fa fa-save"></i>
+                                </span>
+                                <span class="text">Discard</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Begin Page Content -->
+                <div class="container-fluid" style="margin-top:70px;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header" style="height: 50px;">
+                                    <div class="col-md-12">
+                                        <span class="font-weight-bold text-primary">
+                                            Product Values
+                                        </span>
+                                        <button class="btn btn-success float-right" style="margin-top: -6px;margin-right: -24px;">
+                                            <i class="fa fa-plus"></i> New
+                                        </button>
+                                        <span class="float-right font-weight-bold mr-3">
+                                            18.09.2020 20:28
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body overflow-auto" style="max-height: 370px;padding:5px;">
+                                    <div class="row pl-4 pt-2">
+                                        <div class="form-group col-md-3">
+                                            <label for="Brand">Brand</label>
+                                            <select class="form-control" name="Brand">
+                                                <option>Bosch</option>
+                                                <option>Cat</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label for="Code">Code</label>
+                                            <select class="form-control" name="Code">
+                                                <option>Bosch</option>
+                                                <option>Cat</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label for="Brand">Description</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label for="Code">Drive Type</label>
+                                            <select class="form-control" name="Code">
+                                                <option>4PIN</option>
+                                                <option>2PIN</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header" style="height: 50px;">
+                                    <div class="col-md-12">
+                                        <span class="font-weight-bold text-primary">
+                                            General Values
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-body overflow-auto" style="max-height: 370px;padding:5px;">
+                                    <div class="row pl-4 pt-2">
+                                        <div class="form-group col-md-3">
+                                            <label for="Voltage">Voltage</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-3">
+                                            <label for="Speed">Speed</label>
+                                            <input type="number" class="form-control" name="Speed">
+                                        </div>
+                                        <div class="form-group col-md-1">
+                                            <label class="text-center col-md-12" for="SC">SC</label>
+                                            <input type="checkbox" class="form-control" name="SC">
+                                        </div>
+                                        <div class="form-group col-md-1">
+                                            <label class="text-center col-md-12" for="OC">OC</label>
+                                            <input type="checkbox" class="form-control" name="OC">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header" style="height: 50px;">
+                                    <div class="col-md-12">
+                                        <span class="font-weight-bold text-primary">
+                                            Bip Values
+                                        </span>
+                                        <input type="checkbox" class="float-right form-control check-test">
+                                    </div>
+                                </div>
+                                <div class="card-body" style="padding: 5px;">
+                                    <div class="row pl-4 pr-4 pt-2">
+                                        <div class="form-group col-md-12">
+                                            <label for="Voltage">Value</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">Tolerance</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="SC">Threshould</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="OC">Offset</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header" style="height: 50px;">
+                                    <div class="col-md-12">
+                                        <span class="font-weight-bold text-primary">
+                                            RSP
+                                        </span>
+                                        <input type="checkbox" class="float-right form-control check-test">
+                                    </div>
+                                </div>
+                                <div class="card-body overflow-auto" style="max-height: 370px;padding:5px;">
+                                    <div class="row pl-4 pr-4 pt-2">
+                                        <div class="form-group col-md-12">
+                                            <label for="Voltage">Offset </label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header" style="height: 50px;">
+                                    <div class="col-md-12">
+                                        <span class="font-weight-bold text-primary">
+                                            CH1
+                                        </span>
+                                        <input type="checkbox" class="float-right form-control check-test">
+                                    </div>
+                                </div>
+                                <div class="card-body" style="padding: 5px;">
+                                    <div class="row pl-4 pr-4 pt-2">
+                                        <div class="form-group col-md-12">
+                                            <label for="Voltage">P. Peak Curr</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">P. Hold Curr</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">P. Peak Time</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">P. Hold Time</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">Freefall Time</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">Advance Pulse</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">Time Advance</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">RSP Value</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">RSP Threshould</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">RSP Tolerance</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">Hold Time Offset</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header" style="height: 50px;">
+                                    <div class="col-md-12">
+                                        <span class="font-weight-bold text-primary">
+                                            CH2
+                                        </span>
+                                        <input type="checkbox" class="float-right form-control check-test">
+                                    </div>
+                                </div>
+                                <div class="card-body" style="padding: 5px;">
+                                    <div class="row pl-4 pr-4 pt-2">
+                                        <div class="form-group col-md-12">
+                                            <label for="Voltage">P. Peak Curr</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">P. Hold Curr</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">P. Peak Time</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">P. Hold Time</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">Freefall Time</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">Advance Pulse</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">Time Advance</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">RSP Value</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">RSP Threshould</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">RSP Tolerance</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="Speed">Hold Time Offset</label>
+                                            <input type="number" class="form-control" name="Voltage">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <a class="scroll-to-top rounded" href="#page-top">
+            <i class="fas fa-angle-up"></i>
+        </a>
+
+        <script src="./js/jquery/jquery.min.js"></script>
+        <script src="./js/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="./js/sb-admin-2.js"></script>
+</body>
+
+</html>

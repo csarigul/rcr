@@ -1,0 +1,428 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Euro 6</title>
+
+    <!-- Custom fonts for this template-->
+    <link href="./js/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <style>
+        /* nunito-regular - latin */
+        
+        @font-face {
+            font-family: 'Nunito';
+            font-style: normal;
+            font-weight: 400;
+            src: url('../fonts/nunito-v13-latin-regular.eot');
+            /* IE9 Compat Modes */
+            src: local('Nunito Regular'), local('Nunito-Regular'), url('./fonts/nunito-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('./fonts/nunito-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('./fonts/nunito-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+            url('./fonts/nunito-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('./fonts/nunito-v13-latin-regular.svg#Nunito') format('svg');
+            /* Legacy iOS */
+        }
+        
+        .icon-menu {
+            padding-top: 10px !important;
+        }
+        
+        .m-l-5 {
+            margin-left: 5px;
+        }
+        
+        .m-r-5 {
+            margin-right: 5px;
+        }
+        
+        .m-l-10 {
+            margin-left: 10px;
+        }
+        
+        .m-r-10 {
+            margin-right: 10px;
+        }
+        
+        .m-t-10 {
+            margin-top: 10px;
+        }
+        
+        .btn-test-step {
+            font-size: 25px !important;
+        }
+    </style>
+
+    <!-- Custom styles for this template-->
+    <link href="./css/sb-admin-2.css" rel="stylesheet">
+</head>
+
+<body id="page-top" style="background: rgb(253, 211, 77);">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+                <div class="card shadow mb-4 fixed-top">
+                    <!-- Card Header - Dropdown -->
+                    <div class="card-header" style="background:rgb(253, 211, 77)">
+                        <div class="col-md-12">
+                            <img src="img/logo.png" width="140" style="margin-top: -5px;margin-bottom: -11px;" />
+
+                            <a class="btn btn-light float-right" href="tel:05551231212">
+                                <i class="fa fa-phone"></i> Support
+                            </a>
+                            <a href="#" class="btn btn-dark btn-icon-split m-r-10 float-right">
+                                <span class="icon text-white-25 icon-menu">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                                <span class="text">Admin Login</span>
+                            </a>
+                            <a href="euro6_test.html" class="btn btn-dark btn-icon-split  m-r-10 float-right">
+                                <span class="icon text-white-25 icon-menu">
+                                    <i class="fa fa-cog "></i>
+                                </span>
+                                <span class="text">Config</span>
+                            </a>
+                            <a href="euro6_product.html" class="btn btn-dark btn-icon-split m-r-10 float-right">
+                                <span class="icon text-white-25 icon-menu">
+                                    <i class="fa fa-image"></i>
+                                </span>
+                                <span class="text">Product Gallery</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid" style="margin-top:70px;">
+
+
+
+                    <!-- Content Row -->
+
+                    <div class="row">
+
+                        <!-- Area Chart -->
+                        <div class="col-md-3">
+                            <div class="card shadow mb-4" style="height:96%">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Product Selection
+                                        <h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div class="col-md-12">
+                                        <div class="form">
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Brand</label>
+                                                <select class="form-control">
+                                            <option>Bosch</option>
+                                            <option>Cat</option>
+                                        </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Product</label>
+                                                <select class="form-control">
+                                            <option>Injector</option>
+                                        </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Code</label>
+                                                <select class="form-control">
+                                            <option>0414799015</option>
+                                            <option>0414790015</option>
+                                        </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pie Chart -->
+                        <div class="col-md-9">
+
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div class="card-header">
+                                    <div class="col-md-12">
+                                        <span class="font-weight-bold text-primary">
+                                        Test Steps
+                                    </h6>
+                                   
+                                </div>  
+                               
+                            </div>
+                            <!-- Card Body -->
+                            <div class="card-body overflow-auto" style="max-height: 370px;">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                      <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-link btn-test-step" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <i class="fa fa-caret-down m-r-10"></i>
+                                            Test 1
+                                            <i class="fa fa-check float-right text-success m-l-10 "></i>
+                                          </button>
+                                         
+                                         
+                                        </h2>
+                                      </div>
+                                  
+                                      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <h4 class="text-center text-danger">Switch your bla bla bla</h4>
+                                            <div class="table-responsive">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">#</th>
+                                                            <th scope="col">Parameter</th>
+                                                            <th scope="col">Value</th>
+                                                            <th scope="col">Tol ±</th>
+                                                            <th scope="col">Results</th>
+                                                            <th scope="col">Unit</th>
+                                                          </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Set Pressure</td>
+                                                            <td>300</td>
+                                                            <td>10</td>
+                                                            <td>
+                                                                <input type="number" class="form-control" style="width:100px">
+                                                            </td>
+                                                            <td><b>bar</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Ref İnj Flow</td>
+                                                            <td>300</td>
+                                                            <td>10</td>
+                                                            <td>
+                                                                <input type="number" width="100"  class="form-control"  style="width:100px">
+                                                            </td>
+                                                            <td><b>mm3/st</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Ref Backleak</td>
+                                                            <td>100</td>
+                                                            <td>15</td>
+                                                            <td>
+                                                                <input type="number" width="100"  class="form-control"  style="width:100px"> 
+                                                            </td>
+                                                            <td><b>mm3/st</b></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                         </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Test 2
+                                          </button>
+                                        </h2>
+                                      </div>
+                                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <h4 class="text-center text-danger">Switch your bla bla bla</h4>
+                                            <div class="table-responsive">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">#</th>
+                                                            <th scope="col">Parameter</th>
+                                                            <th scope="col">Value</th>
+                                                            <th scope="col">Tol ±</th>
+                                                            <th scope="col">Results</th>
+                                                            <th scope="col">Unit</th>
+                                                          </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Set Pressure</td>
+                                                            <td>300</td>
+                                                            <td>10</td>
+                                                            <td>
+                                                                <input type="number" class="form-control" style="width:100px">
+                                                            </td>
+                                                            <td><b>bar</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Ref İnj Flow</td>
+                                                            <td>300</td>
+                                                            <td>10</td>
+                                                            <td>
+                                                                <input type="number" width="100"  class="form-control"  style="width:100px">
+                                                            </td>
+                                                            <td><b>mm3/st</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Ref Backleak</td>
+                                                            <td>100</td>
+                                                            <td>15</td>
+                                                            <td>
+                                                                <input type="number" width="100"  class="form-control"  style="width:100px"> 
+                                                            </td>
+                                                            <td><b>mm3/st</b></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                         </div>
+                                      </div>
+                                    </div>
+                                    <div class="card">
+                                      <div class="card-header" id="headingThree">
+                                        <h2 class="mb-0">
+                                          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Test 3
+                                          </button>
+                                        </h2>
+                                      </div>
+                                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                         <div class="card-body">
+                                            <h4 class="text-center text-danger">Switch your bla bla bla</h4>
+                                            <div class="table-responsive">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">#</th>
+                                                            <th scope="col">Parameter</th>
+                                                            <th scope="col">Value</th>
+                                                            <th scope="col">Tol ±</th>
+                                                            <th scope="col">Results</th>
+                                                            <th scope="col">Unit</th>
+                                                          </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>1</td>
+                                                            <td>Set Pressure</td>
+                                                            <td>300</td>
+                                                            <td>10</td>
+                                                            <td>
+                                                                <input type="number" class="form-control" style="width:100px">
+                                                            </td>
+                                                            <td><b>bar</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>2</td>
+                                                            <td>Ref İnj Flow</td>
+                                                            <td>300</td>
+                                                            <td>10</td>
+                                                            <td>
+                                                                <input type="number" width="100"  class="form-control"  style="width:100px">
+                                                            </td>
+                                                            <td><b>mm3/st</b></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>3</td>
+                                                            <td>Ref Backleak</td>
+                                                            <td>100</td>
+                                                            <td>15</td>
+                                                            <td>
+                                                                <input type="number" width="100"  class="form-control"  style="width:100px"> 
+                                                            </td>
+                                                            <td><b>mm3/st</b></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                         </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            </div>
+            <!-- End of Content Wrapper -->
+
+        </div>
+        <!-- End of Page Wrapper -->
+
+        <div class="modal" tabindex="-1" role="dialog" id="mdTest">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ..
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Scroll to Top Button-->
+                        <a class="scroll-to-top rounded" href="#page-top">
+                            <i class="fas fa-angle-up"></i>
+                        </a>
+                        <div class="navbar fixed-bottom">
+                            <div class="col-md-12">
+                                <button class="btn btn-info  btn-lg btn-icon-split m-r-10 m-t-10" onclick="$('#mdTest').modal('show');">
+                    <span class="icon text-white-25 icon-menu">
+                        <i class="fa fa-info"></i>
+                    </span>
+                    <span class="text">Info</span>
+                </button>
+                                <button class="btn btn-success  btn-lg btn-icon-split m-r-10 float-right m-t-10">
+                    <span class="icon text-white-25 icon-menu">
+                        <i class="fa fa-play"></i>
+                    </span>
+                    <span class="text">Start / Stop</span>
+                </button>
+                                <button class="btn btn-primary btn-lg  btn-lg btn-icon-split m-r-10 float-right  m-t-10">
+                    <span class="icon text-white-25 icon-menu">
+                        <i class="fa fa-file-excel"></i>
+                    </span>
+                    <span class="text">Report</span>
+                </button>
+
+                            </div>
+                        </div>
+
+                        <!-- Bootstrap core JavaScript-->
+                        <script src="./js/jquery/jquery.min.js"></script>
+                        <script src="./js/bootstrap/js/bootstrap.bundle.min.js"></script>
+                        <script src="./js/sb-admin-2.js"></script>
+</body>
+
+</html>
